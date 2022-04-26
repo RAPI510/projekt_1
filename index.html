@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function h1(){
+            document.getElementById('pierwszy').innerHTML += "&lt;h1&gt; &lt;h1/&gt;";
+        }
+        function h2(){
+            document.getElementById('pierwszy').innerHTML += "&lt;h2&gt; &lt;h2/&gt;";
+        }
+        function h3(){
+            document.getElementById('pierwszy').innerHTML += "&lt;h3&gt; &lt;h3/&gt;";
+        }
+        function h4(){
+            document.getElementById('pierwszy').innerHTML += "&lt;h4&gt; &lt;h4/&gt;";
+        }
+        function h5(){
+            document.getElementById('pierwszy').innerHTML += "&lt;h5&gt; &lt;h5/&gt;";
+        }
+        function h6(){
+            document.getElementById('pierwszy').innerHTML += "&lt;h6&gt; &lt;h6/&gt;";
+        }
+        function struktura(){
+            document.getElementById('pierwszy').innerHTML += "&lt;<!DOCTYPE html&gt; &lt;h7/&gt;";
+        }
+    </script>
+    <div id="top_menu_btn">
+    <button type="button" onclick="h1()">H1</button>
+    <button type="button" onclick="h2()">H2</button>
+    <button type="button" onclick="h3()">H3</button>
+    <button type="button" onclick="h4()">H4</button>
+    <button type="button" onclick="h5()">H5</button>
+    <button type="button" onclick="h6()">H6</button>
+    <button type="button" onclick="struktura()">HTML 5</button>
+</div>
+
+
+<textarea id="pierwszy" rows="20" cols="70">
+
+</textarea>
+</body>
+</html>
